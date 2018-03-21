@@ -9,8 +9,11 @@ body, html {
     height: 100%;
 }
 
+
+
+
 /* The hero image */
-.hero-image {
+ .hero-image {
     /* The image used */
     background-image: url("img/concert_sunset.jpg");
 
@@ -67,14 +70,17 @@ nav li a:hover {
 .active {
     background-color: #4CAF50;
 }
-
-.about {
+#who {
+  margin:auto;
+  padding-bottom: 10px;
+}
+#about {
   padding: 20px;
   background-color: #fff;
   color: #000;
   font-weight:bolder;
   width:100%;
-  margin: auto;
+  margin: 5em 0;
 }
 #personal-photo{
 
@@ -110,4 +116,10 @@ nav li a:hover {
 
 footer {
   text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .hero-image {
+    display: none;
+  }
 }
