@@ -28,28 +28,28 @@
 		<nav>
 
 
-		<div id="about">
-			<div class="container">
 
-				<div class="row">
-					<h1 id="who">Who I am</h1> <!--center this -->
-				</div>
-
-				<div class="row">
-				<!-- Put image left of content -->
-					<div class="col-lg">Hello there! My name is Matt. I am Software Engineer and Front End Developer with 3 years of professional experience.
-						I have experience with Java developement in an industrial style of environment at R.W. Beckett. Worked with database management,
-						 and database technology like MySQL and PostgreSQL in a software agency called Robots & Pencils.
-						At Robot & Pencils, I also got involved in Web Developement. Learning technologies like HTML, CSS,
-					  JavaScript, Vue.JS, and React.JS.
+			<div class="container-fluid">
+				<div id="about">
+					<div class="row">
+						<h1 id="who">Who I am</h1> <!--center this -->
 					</div>
 
-					<div class="col-sm">
-						 <img id="personal-photo" src="img/personal_photo.jpg" alt="Picture of Matthew">
-					</div>
-				</div><!--/row2 -->
-			</div><!--/container -->
-		</div><!--/about -->
+					<div class="row">
+					<!-- Put image left of content -->
+						<div id="intro" class="col-sm-12 col-md-6 col-lg-6">Hello there! My name is Matt. I am Software Engineer and Front End Developer with 3 years of professional experience.
+							I have experience with Java developement in an industrial style of environment at R.W. Beckett. Worked with database management,
+							 and database technology like MySQL and PostgreSQL in a software agency called Robots & Pencils.
+							At Robot & Pencils, I also got involved in Web Developement. Learning technologies like HTML, CSS,
+						  JavaScript, Vue.JS, and React.JS.
+						</div>
+
+						<div class="col-md-6 col-lg-6 tc">
+							 <img id="personal-photo" src="img/personal_photo.jpg" alt="Picture of Matthew">
+						</div>
+					</div><!--/row2 -->
+			</div><!--/about -->
+		</div><!--/container -->
 
 		<!-- create block view of content -->
 		<div class="container projects">
@@ -62,17 +62,35 @@
 		<footer>
 			<div id="contact" class="container">
 				<div class="row">
-					<h1>Get in Touch</h1>
-					<p>Feel free to reach out to me for your developement needs. Just want to chat? Drop a line, and I will get right back to you!</p>
-				</div>
+					<div class="col-md-6 col-lg-6">
+						<h1 class="text-center">Get in Touch</h1>
+						<p>Feel free to reach out to me for your developement needs. Just want to chat? Drop a line, and I will get right back to you!</p>
+						<div class="email">Email: <a id="email" href="mailto:Matthewragosto@gmail.com?Subject=Hello" target="_top">Matthewragosto@gmail.com</a></email></div>
+					</div>
+
+					<div id="social-media" class="col-md-6 col-lg-6 text-center">
+						<h1>My Networks</h1>
+
+						<div>
+							<a href="https://github.com/magosto">
+								<img id="github-logo" src="img/GitHub_Logo_White.png" alt="GitHub Logo">
+							</a>
+						</div><!--/Github-->
+
+						<div>
+							<a href="https://www.linkedin.com/in/matthew-agosto-5342736a/">
+								<img id="linkedIn-logo" src="img/In-White-48px-R.png" alt="LinkedIn Logo">
+							</a>
+						</div><!--/LinkedIn-->
+
+					</div>
+				</div> <!--/Row1-->
 
 				<div class="row">
-					<div class="email col-lg">Email: <a href="mailto:Matthewragosto@gmail.com?Subject=Hello" target="_top">Matthewragosto@gmail.com</a></email></div>
-					<div class="social-media col-lg">Links to Social Media</div>
-				</div>
+					<div id="copyright" class=" col-sm-12 text-center">Copyright &copy; 2018 Matthew Agosto All rights reserved.</div>
+				</div> <!--/Row2-->
 
 			</div><!--/container -->
-			<div id="copyright">Copyright &copy; 2018 Matthew Agosto All rights reserved.</div>
 		</footer>
 
 

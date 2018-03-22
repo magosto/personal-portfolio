@@ -5,8 +5,8 @@ $(window).scroll(function () {
     $('.navBar a').css('color','black');
 
   } else {
-    $('.navbar ul').css('background','transparent');
-    $('.navbar a').css('color','white');
+    $('.navBar ul').css('background','transparent');
+    $('.navBar a').css('color','white');
   }
 });
 

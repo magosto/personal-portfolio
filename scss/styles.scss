@@ -64,3 +64,29 @@ nav {
 nav .icon {
   display: none;
 }
+
+#personal-photo{
+  border-radius: 50%;
+  height: 20em;
+  width: 20em;
+  text-align: center;
+}
+
+footer{
+  background-color: #151515;
+  color: #8e8e8e;
+  #email{color: #fff !important;}
+  #email:hover{
+    color: #8e8e8e !important;
+    text-decoration: none;
+  }
+  #github-logo{
+    height:40px;
+    margin-bottom: 20px;
+  }
+  #linkedIn-logo{
+    height:30px;
+    width: 30px;
+  }
+  #copyright{margin: 50px 0px 20px 0px;}
+}

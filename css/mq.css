@@ -1,3 +1,4 @@
+/*Nav*/
 @media screen and (max-width: 600px) {
   nav li a {
     display: none; }
@@ -16,3 +17,11 @@
     float: none;
     display: block;
     text-align: left; } }
+
+/*/Nav*/
+/*Footer*/
+@media screen and (max-width: 767px) {
+  #social-media {
+    margin-top: 50px; } }
+
+/*/Footer*/
