@@ -1,8 +1,8 @@
 /*Nav*/
 @media screen and (max-width: 600px) {
-  nav li a {
+  #topNav li a {
     display: none; }
-  nav a.icon {
+  #topNav a.icon {
     float: right;
     display: block; } }
 
