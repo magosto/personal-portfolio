@@ -13,9 +13,9 @@ $(window).scroll(function () {
 //nav menu icon onclick
 function navClick() {
     var x = document.getElementById("topNav");
-    if (x.className === "navBar") {
+    if (x.className === ".navBar") {
         x.className += " responsive";
     } else {
-        x.className = "navBar";
+        x.className = ".navBar";
     }
 }
