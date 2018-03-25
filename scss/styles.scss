@@ -127,6 +127,19 @@ body,html{
   height: auto;
   width: 100%;
   border-radius: 5px;
+  -o-transition:opacity .5s ease-in;
+  -ms-transition:opacity .5s ease-in;
+  -moz-transition:opacity .5s ease-in;
+  -webkit-transition:opacity .5s ease-in;
+/* ...and now for the proper property */
+transition:opacity .5s ease-in;
+}
+
+
+.wrapper{
+  :hover .project-thumbnail{
+    opacity: 0.4;
+  }
 }
 
 .portfolio-row {
