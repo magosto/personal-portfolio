@@ -112,9 +112,6 @@ body, html {
   /* ...and now for the proper property */
   transition: opacity .5s ease-in; }
 
-.wrapper :hover .project-thumbnail {
-  opacity: 0.4; }
-
 .portfolio-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,12 +198,43 @@ footer {
     flex: 100%;
     max-width: 100%; } }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
   .portfolio-header {
     display: block;
     text-align: center;
     margin-bottom: 0;
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .text {
+    display: none; } }
+
+@media screen and (min-width: 993px) {
+  .wrapper {
+    position: relative; }
+    .wrapper .overlay:hover {
+      opacity: 0.8; }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    background-color: #e6e6e6; }
+  .text {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; } }
 
 /*/Portfolio*/
 /*Footer*/
