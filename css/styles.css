@@ -51,38 +51,7 @@ body, html {
     font-size: 40px; }
 
 /*/Landing Section*/
-/*NAV*/
-#topNav {
-  overflow: hidden; }
-  #topNav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%; }
-  #topNav li {
-    float: right;
-    padding: 5px 20px; }
-    #topNav li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px; }
-    #topNav li a:hover {
-      color: #111;
-      list-style-type: none; }
-
-.active {
-  background-color: #4CAF50;
-  color: white; }
-
-#topNav .icon {
-  display: none; }
-
+/*About*/
 #about {
   margin: 20px 0px; }
   #about #personal-photo {
@@ -90,7 +59,7 @@ body, html {
     height: 20em;
     width: 20em; }
 
-/*/NAV*/
+/*/About*/
 /*Portfolio*/
 #portfolio {
   background-color: #e6e6e6; }

@@ -61,45 +61,8 @@ body,html{
 }
 /*/Landing Section*/
 
-/*NAV*/
-#topNav {
-  overflow: hidden;
-  ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  li{
-    float: right;
-    padding: 5px 20px;
-    a{
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
+/*About*/
 
-    a:hover{
-      color: #111;
-      list-style-type: none;
-    }
-  }
-}
-
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-#topNav .icon {
-  display: none;
-}
 #about{
   margin: 20px 0px;
   #personal-photo{
@@ -108,7 +71,8 @@ body,html{
     width: 20em;
   }
 }
-/*/NAV*/
+/*/About*/
+
 
 /*Portfolio*/
 #portfolio{
@@ -157,6 +121,7 @@ body,html{
 }
 
 /*/Portfolio*/
+
 
 /*Footer*/
 footer{
